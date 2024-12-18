@@ -81,9 +81,28 @@ footer > form > input {
 .mensagem.usuario {
   text-align: right;
   color: blue;
+  background-color: #E5E5E5;
+  padding: 16px;
+  border-radius: 25px;
+  width: fit-content;
+  margin-left: auto;
+  font-size: 1rem;
+  border-bottom-right-radius: 0;
 }
 
 .mensagem.gemini {
   text-align: left;
   color: green;
+  background-color: #E5E5E5;
+  padding: 16px;
+  border-radius: 25px;
+  width: fit-content;
+  max-width: 75%;
+  margin-right: auto;
+  font-size: 1rem;
+  border-bottom-left-radius: 0;
+}
+
+#chat-box {
+  padding: 6px;
 }
